@@ -1,0 +1,136 @@
+/* Header Css */
+.header_container {
+  width: 100vw;
+  height: 6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+
+.header_links {
+  display: flex;
+  gap: 99px;
+  list-style: none;
+}
+
+.header_links_li {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_links_li:hover {
+  color: var(--orange);
+}
+
+.active {
+  font-weight: 600;
+  color: #ff9c05;
+}
+
+.header_btn {
+  color: var(--white);
+  display: flex;
+  width: 128px;
+  height: 48px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(var(--black), var(--black)) padding-box,
+    linear-gradient(to right, #c9442d, #893e97) border-box;
+  border-radius: 8px;
+  background: var(
+    --gradient,
+    linear-gradient(89deg, #c9442d 0.55%, #893e97 91.24%)
+  );
+  border: 1px solid transparent;
+}
+
+.header_btn:hover {
+  background: linear-gradient(var(--black), var(--black)) padding-box,
+    linear-gradient(to right, #c9442d, #893e97) border-box;
+  border-radius: 8px;
+  transition: 3s;
+}
+
+.header_input input {
+  display: flex;
+  width: 177px;
+  height: 49px;
+  padding: 20px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #ffa418;
+}
+
+.search {
+  position: absolute;
+  right: 145px;
+  font-size: 22px;
+  bottom: 37px;
+}
+
+/* footer */
+
+.footer_wrapper {
+  width: 100vw;
+  margin-top: 10%;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95vw;
+}
+
+.footer_text {
+  width: 290px;
+  line-height: 24px;
+  color: var(--grey);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer_tags {
+  margin-top: 15px;
+  margin-right: 22px;
+  color: var(--white);
+  font-size: 24px;
+}
+
+.footer_heading {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+
+.footer_links {
+  color: var(--grey);
+  margin-bottom: 16px;
+}
+
+.footer_copyright {
+  color: var(--grey);
+  border-top: 1px solid var(--grey);
+  margin-top: 39px;
+}
+
+.footer_copyright p {
+  text-align: center;
+  margin: 32px 0;
+}
