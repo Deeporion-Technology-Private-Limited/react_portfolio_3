@@ -1,10 +1,8 @@
-import React, { useTransition } from "react";
+import React from "react";
 import "./style.css";
 import logo from "../images/logo.png";
-import { RiFacebookFill, RiTwitterFill, RiDribbbleFill } from "react-icons/ri";
-import { AiOutlineGithub } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -18,7 +16,7 @@ const Footer = () => {
             <p className="footer_text">{t("commited")}</p>
           </div>
           <div>
-            <RiFacebookFill className="footer_tags" />
+            <FaFacebook className="footer_tags" />
             <FaLinkedinIn className="footer_tags" />
             <FaInstagram className="footer_tags" />
           </div>
